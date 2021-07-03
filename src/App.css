@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+main {
+  display: flex;
+}
+
+.dropdown {
+  background-color: white;
+  max-width: 200px;
+}
+
+.stats {
+  width: 40%;
+  height: 100vh;
+  overflow: auto;
+  background: whitesmoke;
+  padding: 17px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 0.5rem;
+}
+
+.header-name {
+  display: flex;
+  align-items: center;
+}
+
+.stats-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 0px;
+  border-left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3938;
+  border-radius: 0;
+  height: 37px;
+}

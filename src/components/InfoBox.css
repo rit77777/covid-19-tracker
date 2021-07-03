@@ -1,0 +1,48 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.info-box {
+  flex: 1;
+  cursor: pointer;
+}
+
+.info-box:not(:last-child) {
+  margin-right: 15px;
+}
+
+.info-box-cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-box-selected {
+  border-top: 10px solid greenyellow;
+}
+
+.info-box-red {
+  border-color: red;
+}
+
+.info-box-cases-green {
+  color: lightgreen;
+}
+
+.info-box-grey {
+  border-color: grey;
+}
+
+.info-box-title {
+  font-weight: 600;
+}
+
+.info-box-cases-grey {
+  color: grey;
+}
+
+.info-box-total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
